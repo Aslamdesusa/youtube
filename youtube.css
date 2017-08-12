@@ -1,0 +1,181 @@
+body{
+    background-color: whitesmoke;
+}
+#container{
+    display: flex;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 2px solid #cc181e;
+    border-width: medium;
+}
+#inp{
+    margin-left: 100px;
+}
+#inn{
+    width: 500px;
+}
+.gly{
+    position: absolute;
+    right: 15px;
+}
+button{
+    cursor: pointer;    
+}
+#col4{
+  padding-top: 10px;
+  margin-top: 58px;
+  border-right: 1px solid whitesmoke;
+  background-color: white;
+}
+#col5{
+  margin-top: 58px;
+  margin-left: 30px;
+}
+.col{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+}
+.pp{
+  color: white;
+  background-color: #cc181e;
+  font-family: ubuntu;
+  padding: 5px;
+  width: 95%;
+  margin-bottom: 16px;
+}
+.sp{
+  color:  #cc181e;
+  font-size: 12px;
+  font-family: ubuntu;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.mar{
+  margin-top: -16px;
+  cursor: pointer;
+  font-family: ubuntu;
+  padding: 5px;
+  font-size: 13px;
+}
+.mar:hover{
+  background-color: #666666;
+  color: white;
+}
+#sec{
+  margin-top: 5%;
+  background-color: whitesmoke;
+  overflow: scroll;
+  height: 80%;
+  width: 100%;
+
+}
+.sec1{
+  background-color: white;
+  display: flex;
+  position: fixed;
+  padding-left: 30%;
+  top: 58px;
+  right: 0;
+  left: 216px;
+}
+#head{
+  margin: 10px;
+  border-bottom: 3px solid #cc181e;
+}
+#head1{
+  margin: 10px;
+  color: #ccc;
+}
+#head2{
+  margin: 10px;
+  color: #ccc;
+}
+#cont3{
+  background-color: white;
+  width: 85%;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/*signup page*/
+
+
+
+.modal4{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img1/001.jpg);
+    transition: 2s;
+}
+
+
+.modal-content4 {
+    position:relative; 
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 1s;
+    animation-name: animatetop;
+    animation-duration: 1s;
+    border-radius: 20px 20px 80px 20px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+
+
+.modal-header4 {
+    padding: 2px 15px;
+    background-color: #ccc;
+    color: white;
+    border-radius: 20px 0px 0px 0px;
+    
+    
+}
+.modal-footer4 {
+    padding: 2px 16px;
+    color: black;
+}
+#btnnn114{
+    padding: 15px;
+    border-radius: 0px 10px 10px 10px;
+    margin-left: 170px;
+    outline: none;
+    font-size: 15px;
+}
+
+
+#push{
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30px; 
+    outline: none;
+}
